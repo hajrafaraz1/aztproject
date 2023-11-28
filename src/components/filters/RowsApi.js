@@ -1,0 +1,68 @@
+export const rows = [
+  {
+    id: 1,
+    name: "Hajra Faraz",
+    gender: "Female",
+    place_dateofBirth: 35,
+    groups: "maths,physics",
+  },
+  {
+    id: 2,
+    name: "Amna",
+    gender: "female",
+    place_dateofBirth: 42,
+    groups: ["ffgg", "jhgff"],
+  },
+  {
+    id: 3,
+    name: "Ahmed",
+    gender: "male",
+    place_dateofBirth: 45,
+    groups: "maths,physics",
+  },
+  {
+    id: 4,
+    name: "Maryam",
+    gender: "female",
+    place_dateofBirth: 16,
+    groups: "maths,physics",
+  },
+  {
+    id: 5,
+    name: "Hassan",
+    gender: "male",
+    place_dateofBirth: 34,
+    groups: "maths,physics",
+  },
+  {
+    id: 6,
+    name: "Ali",
+    gender: "male",
+    place_dateofBirth: 150,
+    groups: "maths,physics",
+  },
+  {
+    id: 7,
+    name: "Abdul Rehman",
+    gender: "male",
+    place_dateofBirth: 44,
+    groups: "maths,physics",
+  },
+  {
+    id: 8,
+    name: "Sadia",
+    gender: "female",
+    place_dateofBirth: 36,
+    groups: "maths,physics",
+  },
+  {
+    id: 9,
+    name: "Atika",
+    gender: "female",
+    place_dateofBirth: 65,
+    groups: "maths,physics",
+  },
+];
+
+//  "json-server": "json-server --watch db.json --port 3003",
+//     "start:dev": "concurrently \"npm start\" \"npm run json-server\"",

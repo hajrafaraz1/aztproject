@@ -1,0 +1,98 @@
+// const addStudentHandler = async () => {
+  // const response = await fetch("http://localhost:3000/students", {
+  //   method: "POST",
+  //   body: JSON.stringify({
+  //     name: "Sheraz Ilyas",
+  //     gender: "Male",
+  //     dob: "06-09-2001",
+  //     groups: ["maths", "physics"],
+  //   }),
+  //   headers: {
+  //     "content-type": "application/json",
+  //   },
+  // });
+  // console.log("response", response);
+  //  };
+
+  // const [tableData, setTableData] = useState([]);
+
+  // useEffect(() => {
+  //   handleFetchStudent();
+
+  //   //   // fetchData();
+  // }, []);
+
+//getting data
+  const handleFetchStudent = async () => {
+    // get  Static data will be shown
+    const response = await fetch("http://localhost:3000/students");
+    const convertedResponse = await response.json();
+    setDynamicStudents(convertedResponse);
+    //  get
+    fetch("http://localhost:3000/students")
+      .then((data) => data.json())
+      .then((data) => setDynamicStudents(data));
+
+
+
+
+      ////
+      ////
+      ////
+
+      
+    // //post; // it will add data dynamically
+    // fetch("http://localhost:3000/students", {
+    //   method: "POST",
+    //   body: JSON.stringify({
+    //     name: "Hajra Faraz",
+    //     gender: "Female",
+    //     dob: "06-09-2001",
+    //     groups: ["maths", "physics"],
+    //   }),
+    //   headers: {
+    //     "content-type": "application/json",
+    //   },
+    // })
+    //   .then((data) => data.json())
+    //   .then((data) => setDynamicStudents(data));
+  };
+
+  // const addStudentHandler = async () => {
+  // const response = await fetch("http://localhost:3000/students",
+  // {
+  //   method: "POST",
+  //   body: JSON.stringify({
+  //     name: "Sheraz Ilyas",
+  //     gender: "Male",
+  //     dob: "06-09-2001",
+  //     groups: ["maths", "physics"],
+  //   }),
+  //   headers: {
+  //     "content-type": "application/json",
+  //   },
+  // });
+  // console.log("response", response);
+  //  };
+
+  // const [tableData, setTableData] = useState([]);
+
+  // useEffect(() => {
+  //   handleFetchStudent();
+
+  //   //   // fetchData();
+  // }, []);
+
+  /////////////
+  //////////////
+
+  // //useEffect es liye use kiya hai ku ke es page pe atay sath he 1st attempt maie he esko fetch karle
+
+  ////
+
+  ///
+
+  // //useEffect es liye use kiya hai ku ke es page pe atay sath he 1st attempt maie he esko fetch karle
+  useEffect(() => {
+    handleFetchStudent();
+  }, []);
