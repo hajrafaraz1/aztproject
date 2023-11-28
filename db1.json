@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "title": "USB",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "category": "Electronics",
+      "price": "55000",
+      "id": 40
+    },
+    {
+      "title": "SD card",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "category": "Computer ",
+      "price": "1150",
+      "id": 41
+    },
+    {
+      "title": "Silver Bangles ",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "category": "jewellary ",
+      "price": "550",
+      "id": 42
+    },
+    {
+      "title": "College Bag",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "category": "Bags",
+      "price": "2100",
+      "id": 43
+    },
+    {
+      "title": "Laptop",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "category": "Computer ",
+      "price": "7250",
+      "id": 44
+    },
+    {
+      "title": "Memory Card",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "category": "Computer",
+      "price": "2300",
+      "id": 46
+    },
+    {
+      "title": "Monitor",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "category": "Electronics",
+      "price": "23500",
+      "id": 47
+    },
+    {
+      "title": "TV Screen",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "category": "Electronics",
+      "price": "55000",
+      "id": 48
+    },
+    {
+      "title": "Men's Clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "category": "Clothes",
+      "price": "456",
+      "id": 49
+    },
+    {
+      "title": "Internet picture",
+      "image": "https://images.pexels.com/lib/api/pexels.png",
+      "category": "picture",
+      "price": "12",
+      "id": 51
+    },
+    {
+      "title": "Bangle",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "category": "jewellary ",
+      "price": "23",
+      "id": 52
+    },
+    {
+      "title": "Hard Disk",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "category": "Electronics",
+      "price": "4300",
+      "id": 53
+    },
+    {
+      "title": "Jacket",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "category": "Clothes",
+      "price": "2400",
+      "id": 54
+    },
+    {
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "title": "Accesories",
+      "category": "jewellary ",
+      "price": "2370",
+      "id": 55
+    }
+  ]
+}
