@@ -123,7 +123,7 @@ const DarazApp = () => {
         <div>
           <p style={{ color: "Orange" }}>On Safe Now</p>
         </div>
-        <div className="Endingin">
+        <div>
           <p style={{ color: "Black" }}>Ending in </p>
         </div>
         <p className="smallbox">1</p>
