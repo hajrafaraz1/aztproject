@@ -1,20 +1,6 @@
 {
   "students": [
     {
-      "name": "haris",
-      "gender": "MALE",
-      "dob": "1989-10-17",
-      "groups": "Maths",
-      "id": 8
-    },
-    {
-      "name": "wahab",
-      "gender": "MALE",
-      "dob": "1989-10-17",
-      "groups": "Maths",
-      "id": 9
-    },
-    {
       "name": "Hajra123",
       "gender": "FEMALE",
       "dob": "1989-10-17",
