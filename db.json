@@ -1,20 +1,6 @@
 {
   "students": [
     {
-      "name": "Sheraz Ilyas",
-      "gender": "Male",
-      "dob": "06-09-2001",
-      "groups": "mathss,physics",
-      "id": 1
-    },
-    {
-      "name": "Abdul Rehman Faraz",
-      "gender": "MALE",
-      "dob": "1989-10-17",
-      "groups": "Maths",
-      "id": 7
-    },
-    {
       "name": "haris",
       "gender": "MALE",
       "dob": "1989-10-17",
